@@ -21,8 +21,3 @@ sed -i "/CYXluq4wUazHjmCDBCqXF/d" package/lean/default-settings/files/zzz-defaul
 
 # Add packages
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
-
-# Delete Lean's argon theme
-rm -rf package/lean/luci-theme-argon
-# add jerrykuku's argon theme
-git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
